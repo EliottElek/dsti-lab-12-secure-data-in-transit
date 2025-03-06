@@ -6,12 +6,11 @@ Clone the project:
 git clone https://github.com/EliottElek/dsti-lab-12-secure-data-in-transit.git
 ```
 
-Copy .env files:
-
+Copy .env file:
 
 ```bash
 cd dsti-lab-12-secure-data-in-transit
-cp .env.example ./traefik/.env && cp .env.example ./supabase/.env
+cp .env.example ./.env
 ```
 
 Launch containers:
