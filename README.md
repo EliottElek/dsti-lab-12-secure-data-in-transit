@@ -17,5 +17,5 @@ cp .env.example ./traefik/.env && cp .env.example ./supabase/.env
 Launch containers:
 
 ```bash
-docker compose -f ./traefik/docker-compose.yml -f ./supabase/docker-compose.yml up -d
+docker compose -f docker-compose.traefik.yml up -d && docker compose -f docker-compose.yml -f ./docker-compose.supabase.yml up -d
 ```
