@@ -10,7 +10,7 @@ Copy .env file:
 
 ```bash
 cd dsti-lab-12-secure-data-in-transit
-cp .env.example ./.env
+cp .env.example .env
 ```
 
 Launch containers:
