@@ -9,7 +9,7 @@ services:
     container_name: my-domain-studio
     labels:
       - "traefik.http.routers.my-domain-supabase.rule=Host(`studio.my-domain.localhost`)"
-      # - "traefik.http.routers.my-domain-supabase.entrypoints=websecure"
+      - "traefik.http.routers.my-domain-supabase.entrypoints=websecure"
       - "traefik.http.services.my-domain-supabase.loadbalancer.server.port=3000"
   kong:
     container_name: my-domain-kong
